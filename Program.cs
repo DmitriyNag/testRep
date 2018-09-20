@@ -6,8 +6,8 @@ class Program
         static void Main()
         {
 
-            bool f1 = true;
-            bool f2 = false;
+            bool f2 = true;
+            bool f1 = false;
             float a = 12.45f;
 
             Console.WriteLine(f1);
