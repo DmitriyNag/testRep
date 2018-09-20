@@ -12,6 +12,8 @@ class Program
 
             Console.WriteLine(f1);
             Console.WriteLine(!f1);
+        Console.WriteLine(a * a);
+
         Console.WriteLine("логическое И " + (f1 && f2));
         Console.WriteLine("логическое ИЛИ " + (f1 || f2));
         Console.WriteLine("логическое исключающее ИЛИ " + (f1 ^ f2));
