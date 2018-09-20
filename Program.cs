@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 class Program
     {
@@ -23,9 +24,9 @@ class Program
 
     private static void PrintInfo()
     {
-        Console.WriteLine("Сколько конфет у Ивана");
-        int user1 = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Сколько конфет у Петра");
+        int user1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Сколько конфет у Силены");
         int user2 = int.Parse(Console.ReadLine());
         Console.WriteLine("Всего конфет " + (user1 + user2));
         Console.ReadKey();
